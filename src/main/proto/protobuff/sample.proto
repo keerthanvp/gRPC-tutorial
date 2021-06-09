@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package protobuff;
+
+option java_package = "com.proto.protobuff";
+option java_multiple_files = true;
+
+message SampleMessage{}
+service SampleService{}
